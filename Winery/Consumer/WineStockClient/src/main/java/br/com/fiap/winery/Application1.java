@@ -11,6 +11,5 @@ public class Application1 {
         Service service = Service.create(url, qname);
         WineStockService wineStockService = service.getPort(WineStockService.class);
         System.out.println(wineStockService.getMenu());
-        // System.out.println(wineStockService.placeOrder("Cabernet Sauvignon", 1));
     }
 }

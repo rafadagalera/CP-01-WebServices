@@ -41,6 +41,7 @@
                         <configuration>
                             <wsdlUrls>
                                 <wsdlUrl>http://localhost:8080/winery/WineStockService?wsdl</wsdlUrl>
+                                <wsdlUrl>http://localhost:8085/WineWarningService?wsdl</wsdlUrl>
                             </wsdlUrls>
                             <packageName>br.com.fiap.winery.client</packageName>
                             <sourceDestDir>${project.build.directory}/generated-sources/jaxws</sourceDestDir>
